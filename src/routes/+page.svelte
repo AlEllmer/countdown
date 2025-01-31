@@ -35,24 +35,49 @@
 	<img src="/images/bg-stars.svg" alt="Stars" class="stars" />
 	<img src="/images/pattern-hills.svg" alt="Hills" class="hills" />
 	<div class="content">
-		<h1>We're Launching Soon</h1>
-		<div class="countdown">
-			<div class="card">
-				<span class="flip">{days}</span>
-				<div class="label">Days</div>
+		<div class="-mt-[14rem]">
+			<h1>WE'RE LAUNCHING SOON</h1>
+			<div class="countdown">
+				<div class="card">
+					<span class="flip">{days}</span>
+					<div class="label">Days</div>
+				</div>
+				<div class="card">
+					<span class="flip">{hours}</span>
+					<div class="label">Hours</div>
+				</div>
+				<div class="card">
+					<span class="flip">{minutes}</span>
+					<div class="label">Minutes</div>
+				</div>
+				<div class="card">
+					<span class="flip">{seconds}</span>
+					<div class="label">Seconds</div>
+				</div>
 			</div>
-			<div class="card">
-				<span class="flip">{hours}</span>
-				<div class="label">Hours</div>
-			</div>
-			<div class="card">
-				<span class="flip">{minutes}</span>
-				<div class="label">Minutes</div>
-			</div>
-			<div class="card">
-				<span class="flip">{seconds}</span>
-				<div class="label">Seconds</div>
-			</div>
+		</div>
+		<div class="absolute bottom-12 z-30 flex gap-6">
+			<a
+				href="https://www.facebook.com/haksanktjohann"
+				aria-label="Facebook"
+				class="transform transition-transform hover:scale-110"
+			>
+				<img src="/images/icon-facebook.svg" alt="Facebook" class="h-6 w-6" />
+			</a>
+			<a
+				href="https://www.johak.at/"
+				aria-label="Instagram"
+				class="transform transition-transform hover:scale-110"
+			>
+				<img src="/images/icon-instagram.svg" alt="Instagram" class="h-6 w-6" />
+			</a>
+			<a
+				href="https://www.johak.at/"
+				aria-label="Pinterest"
+				class="transform transition-transform hover:scale-110"
+			>
+				<img src="/images/icon-pinterest.svg" alt="Pinterest" class="h-6 w-6" />
+			</a>
 		</div>
 	</div>
 </div>
